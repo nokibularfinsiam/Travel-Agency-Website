@@ -1,0 +1,142 @@
+/* Font family */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* primarily Desktop/Laptop screen */
+
+body{
+    margin: 0;
+    padding: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+}
+
+header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-img{
+    height: 50px;
+    width: 50px;
+}
+
+.logo-name{
+    display: flex;
+}
+
+.comp-name{
+    margin-top: 2px;
+    margin-left: 15px;
+    color: #131318;
+    font-size: 36px;
+    font-family: Mulish;
+    font-weight: 800;
+}
+
+.comp-name-2{
+    color: #FF5400;
+    font-size: 36px;
+    font-family: Mulish;
+    font-weight: 800;
+}
+
+.nav-items{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-a{
+    text-decoration: none;
+    margin: 15px;
+    color:#424247;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-a:hover{
+    color: #FF5400;
+}
+
+.hamburger{
+    margin: 15px;
+    color:#424247;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0;
+}
+
+/* @media screen and (min-width:992px) and (max-width: 1520px) {
+
+
+} */
+
+/* Mobile Screen  */
+
+@media screen and (min-width:400px) and (max-width: 600px) {
+    body{
+        margin: 0;
+        padding: 0;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    header{
+        display:contents;
+        align-items: center;
+    }
+
+    .logo-img{
+        height: 20px;
+        width: 20px;
+        margin-top: 8px;
+    }
+
+    .comp-name{
+        font-size: 21.54px;
+    }
+    
+    .comp-name-2{
+        font-size: 21.54px;
+    }
+
+}
+
+/* Tablet Screen */
+
+@media screen and (min-width:600px) and (max-width: 991px) {
+    body{
+        margin: 0;
+        padding: 0;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    header{
+        display:contents;
+        align-items: center;
+    }
+
+    .logo-img{
+        height: 30px;
+        width: 30px;
+        margin-top: 10px;
+    }
+
+    .comp-name{
+        font-size: 24px;
+    }
+    
+    .comp-name-2{
+        font-size: 24px;
+    }
+
+}
