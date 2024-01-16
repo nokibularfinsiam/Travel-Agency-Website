@@ -64,6 +64,10 @@ header{
     color: #FF5400;
 }
 
+.hamburger{
+    opacity: 0;
+}
+
 .page-1{
     height: 550px;
     background: linear-gradient(180deg, #131318, #13131800), url('./Images/Group\ 13\ \(1\)\ \(1\).png');
@@ -136,9 +140,50 @@ header{
     border: none;
 }
 
+
+.page-2{
+    margin-top: 70px;
+    font-family: Mulish;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-2 h1 {
+    font-weight: 800;
+}
+
+.page2 h2{
+    font-weight: 600;
+}
+
+.page-2 ul{
+    color: #131318B2;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.btn-2{
+    margin-top: 50px;
+    width: 174px;
+    height: 48px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    border: none;
+}
+
+.page-2-back{
+    background: url('./Images/Rectangle\ 4.png');
+    background-size: cover;
+    height: 550px;
+    width: 540px;
+}
+
 /* Mobile Screen */
 
-@media screen and (min-width:400px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     body{
         margin: 0;
         padding: 0;
@@ -146,27 +191,72 @@ header{
         margin-right: 30px;
         margin-top: 20px;
         justify-content: center;
+        width: 600px;
     }
 
     header{
-        display:contents;
-        align-items: center;
+        flex-direction: column;
+    }
+    
+    .nav-a{
+        visibility: hidden;
+    }
+
+    .hamburger{
+        opacity: 1;
+    }
+    .page-1{
+        width: 580px;
+        height: 500px;
+    }
+
+    .page-1-text-1{
+        font-size: 22px;
+        font-weight: 800;
+        padding-top: 50px;
+    }
+
+    .page-1-3{
+        margin-top: 20px;
+        flex-direction: column;
+        align-items:center;
+        width: 220px;
     }
 
     .logo-img{
-        height: 20px;
-        width: 20px;
-        margin-top: 8px;
+        height: 25px;
+        width: 25px;
+        margin-top: 5px;
     }
-
+    
+    .logo-name{
+        display: flex;
+    }
+    
     .comp-name{
-        font-size: 21.54px;
+        margin-top: 2px;
+        margin-left: 15px;
+        font-size: 24px;
     }
     
     .comp-name-2{
-        font-size: 21.54px;
+        font-size: 24px;
     }
 
+
+    .page-2{
+        margin-top: 50px;
+        flex-direction: column; 
+    }
+
+    .page-2 h1 {
+        text-align: center;
+    }
+
+    .btn-2{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
 
 /* Tablet Screen */
@@ -179,25 +269,6 @@ header{
         margin-right: 50px;
         margin-top: 20px;
         justify-content: center;
-    }
-
-    header{
-        display:contents;
-        align-items: center;
-    }
-
-    .logo-img{
-        height: 30px;
-        width: 30px;
-        margin-top: 10px;
-    }
-
-    .comp-name{
-        font-size: 24px;
-    }
-    
-    .comp-name-2{
-        font-size: 24px;
     }
 
 }
