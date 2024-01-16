@@ -236,7 +236,6 @@ header{
     margin-top: 20px;
     display: flex;
     gap: 20px;
-    justify-content: space-between;
 }
 
 .page-3-2 img{
@@ -265,7 +264,7 @@ header{
 .img-3{
     color: #FFF;
     margin-top: 150px;
-    margin-left: 120px;
+    margin-right: 950px;
     font-family: Mulish;
     font-size: 28px;
     font-weight: 800;
@@ -274,7 +273,7 @@ header{
 .img-4{
     color: #FFF;
     margin-top: 150px;
-    margin-left: 570px;
+    margin-left: 80px;
     font-family: Mulish;
     font-size: 28px;
     font-weight: 800;
@@ -283,7 +282,7 @@ header{
 .img-5{
     color: #FFF;
     margin-top: 150px;
-    margin-left: 1110px;
+    margin-left: 1000px;
     font-family: Mulish;
     font-size: 28px;
     font-weight: 800;
@@ -293,18 +292,22 @@ header{
     margin-top: 20px;
     display: flex;
     gap: 20px;
-    justify-content: space-between;
 }
 
 .page-3-2-img-5{
     width: 820px;
+    opacity: 0.8;
+}
+
+.page-3-2-img-4{
+    opacity: 0.8;
 }
 
 .img-6{
     position: absolute;
     color: #FFF;
     margin-top: 150px;
-    margin-left: 140px;
+    margin-right: 850px;
     font-family: Mulish;
     font-size: 28px;
     font-weight: 800;
@@ -314,14 +317,77 @@ header{
     position: absolute;
     color: #FFF;
     margin-top: 150px;
-    margin-left: 850px;
+    margin-left: 550px;
     font-family: Mulish;
     font-size: 28px;
     font-weight: 800;
 }
+.page4{
+    height: 800px;
+}
 
 .page4{
     height: 800px;
+}
+
+.page-4 h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.p1{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400; 
+}
+
+.page-4-cont-1{
+    display: flex;
+    gap: 24px;
+}
+
+.cont-1-1{
+    background: #FBB56333;
+    padding: 20px;
+    border-radius: 16px;
+    text-align: left;
+    height: 230px;
+}
+.p2{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400; 
+}
+
+.cont-1-2{
+    background: #29CEF633;
+    padding: 20px;
+    border-radius: 16px;
+    text-align: left;
+    height: 230px;
+}
+
+.page-4-cont-2{
+    background: #E9444433;
+    margin: 24px auto auto;
+    height: 230px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 16px;
+    text-align: left;
+}
+
+.page-4 h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
 }
 
 /* Mobile Screen */
@@ -443,17 +509,17 @@ header{
     }
 
     .img-3{
-        margin-top: 150px;
-        margin-left: 250px;
+        margin-top: -720px;
+        margin-left: 250px;    
     }
     
     .img-4{
-        margin-top: 500px;
+        margin-top: 0;
         margin-left: 250px;
     }
 
     .img-5{
-        margin-top: 900px;
+        margin-top: 750px;
         margin-left: 250px;
     }
 
@@ -472,13 +538,31 @@ header{
 
     
     .img-6{
-        margin-left: 230px;
+        margin-left: 220px;
+        margin-top: -370px;
     }
     
     .img-7{
-        margin-top: 550px;
+        margin-top: 400px;
         margin-left: 230px;
     }
+
+    .page-4-cont-1{
+        flex-direction: column;
+        margin-top: 24px;
+    }
+
+    .cont-1-1, .cont-1-2{
+        width: 520px;
+        margin-left: 20px;
+    }
+
+    .page-4-cont-2{
+        width: 520px;
+    }
+    
+
+    
 
 }
 
