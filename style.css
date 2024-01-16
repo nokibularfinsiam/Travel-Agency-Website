@@ -541,6 +541,85 @@ header{
     border-radius: 16px;
 }
 
+.page-7{
+    margin-top: 100px;
+    font-family: Mulish;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.page-7 img{
+    width: 672px;
+    height: 422px;
+}
+
+fieldset{
+    width: 400px;
+    height: 400px;
+    border-radius: 16px;
+    border-color: #ff5906;
+    font-family: Mulish;
+}
+
+.ename{
+    height: 52px;
+    width: 390px;
+    border: none;
+    border-radius: 16px;
+    background-color: #1313180D;
+    margin-bottom: 16px;
+}
+
+.Subscribe{
+    height: 52px;
+    width: 390px;
+    border: none;
+    color:#FFFFFF;
+    border-radius: 16px;
+    background-color: #FF5400;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.p9{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.page-7 h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.save{
+    position:absolute;
+    height: 100px;
+    width: 320px;
+    text-align: center;
+    background-color: #FF5400;
+    border-radius: 16px;
+    transform: rotate(-19.628deg);
+    margin-top: -150px;
+    margin-left: 335px;
+}
+
+.com{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.upto{
+    margin-top: 0;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
 /* Mobile Screen */
 
 @media screen and (max-width: 600px) {
@@ -745,6 +824,37 @@ header{
     .page-6text-2{
         font-size: 18px;
     }    
+
+
+    .page-7{
+        flex-direction: column;
+    }
+
+    .page-7 img{
+        width: 560px;
+    }
+    
+    fieldset{
+        width: 530px;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    .save{
+        margin-top: -150px;
+        margin-left: 235px;
+    }
+    hr{
+        margin-bottom: 20px;
+    }
+
+    .ename{
+        margin-left: 70px;
+    }
+    
+    .Subscribe{
+        margin-left: 70px;
+    }
 
 }
 
