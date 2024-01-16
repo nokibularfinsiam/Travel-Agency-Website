@@ -181,6 +181,149 @@ header{
     width: 540px;
 }
 
+.page-3{
+    height: 1300px;
+}
+
+.page-3 h1{
+    margin-top: 100px;
+    text-align: center;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.page-3 p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.page-3-1{
+    display: flex;
+    gap: 20px;
+}
+.page-3-1 img{
+    height: 350px;
+    width: 650px;
+    opacity: 0.8;
+}
+
+.img-1{
+    position: absolute;
+    color: #FFF;
+    margin-top: 150px;
+    margin-right: 700px;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img-2{
+    position: absolute;
+    color: #FFF;
+    margin-top: 150px;
+    margin-left: 700px;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.page-3-2{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.page-3-2 img{
+    opacity: 0.8;
+}
+
+.page-3-2-img-1{
+    height: 350px;
+    width: 350px;
+}
+
+.page-3-2-img-2{
+    height: 350px;
+    width: 600px;
+}
+
+.page-3-2-img-3{
+    height: 350px;
+    width: 320px;
+}
+
+.img-3, .img-4, .img-5{
+    position: absolute;
+}
+
+.img-3{
+    color: #FFF;
+    margin-top: 150px;
+    margin-left: 120px;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img-4{
+    color: #FFF;
+    margin-top: 150px;
+    margin-left: 570px;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img-5{
+    color: #FFF;
+    margin-top: 150px;
+    margin-left: 1110px;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.page-3-3{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.page-3-2-img-5{
+    width: 820px;
+}
+
+.img-6{
+    position: absolute;
+    color: #FFF;
+    margin-top: 150px;
+    margin-left: 140px;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img-7{
+    position: absolute;
+    color: #FFF;
+    margin-top: 150px;
+    margin-left: 850px;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.page4{
+    height: 800px;
+}
+
 /* Mobile Screen */
 
 @media screen and (max-width: 600px) {
@@ -246,7 +389,9 @@ header{
 
     .page-2{
         margin-top: 50px;
+        margin-left: 15px;
         flex-direction: column; 
+        
     }
 
     .page-2 h1 {
@@ -257,6 +402,84 @@ header{
         margin-top: 30px;
         margin-bottom: 30px;
     }
+
+
+    .page-3{
+        height: 2800px;
+    }
+
+    
+    .page-3-1{
+        flex-direction: column;
+    }
+
+    .page-3-1 img{
+        width: 590px;
+    }
+
+    .img-1{
+        margin-top: -350px;
+        margin-left: 250px;
+    }
+    
+    .img-2{
+        margin-top: 350px;
+        margin-left: 250px;
+    }
+
+    .page-3-2{
+        flex-direction: column;
+    }
+    .page-3-2-img-1{
+        width: 590px;
+    }
+    
+    .page-3-2-img-2{
+        width: 590px;
+    }
+    
+    .page-3-2-img-3{
+        width: 590px;
+    }
+
+    .img-3{
+        margin-top: 150px;
+        margin-left: 250px;
+    }
+    
+    .img-4{
+        margin-top: 500px;
+        margin-left: 250px;
+    }
+
+    .img-5{
+        margin-top: 900px;
+        margin-left: 250px;
+    }
+
+    .page-3-3{
+      flex-direction: column;
+    }
+
+    .page-3-2-img-4{
+        width: 590px;
+    }
+
+    .page-3-2-img-5{
+        width: 590px;
+        height: 350px;
+    }
+
+    
+    .img-6{
+        margin-left: 230px;
+    }
+    
+    .img-7{
+        margin-top: 550px;
+        margin-left: 230px;
+    }
+
 }
 
 /* Tablet Screen */
