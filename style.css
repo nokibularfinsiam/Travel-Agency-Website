@@ -892,6 +892,53 @@ footer{
 
 /* desktop minimum */
 
+
+
+@media screen and (max-width: 992px) {
+    
+    .page-2-text{
+        width: 470px;
+        margin-left: 25px;
+    }
+    
+    .page-2-back{
+        height: 500px;
+        width: 500px;
+    }
+
+    .page-5-cont-1, .page-5-cont-2{
+        margin-left: 150px;
+    }
+
+    .page-5-lastbtn{
+        margin-left: 400px;
+    }
+
+    .page-6-text{
+        margin-right: 20px;
+    }
+    fieldset{
+        margin-right: 20px;
+    }
+
+    .page-3-1 img{
+        width: 540px;
+    }
+
+    .page-3-2-img-1{
+        width: 330px;
+    }
+    
+    .page-3-2-img-2{
+        width: 450px;
+    }
+    
+    .page-3-2-img-3{
+        width: 320px;
+    }
+}
+
+
 /* Tablet Screen */
 
 @media screen and (min-width:600px) and (max-width: 991px) {
