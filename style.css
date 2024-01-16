@@ -12,6 +12,7 @@ body{
     padding: 0;
     margin-left: 100px;
     margin-right: 100px;
+    min-width: 992px;
     max-width: 1520px;
 }
 
@@ -619,6 +620,28 @@ fieldset{
     font-weight: 700;
 }
 
+footer{
+    margin: 0;
+    padding-top: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 450px;
+    border-radius: 16px;
+    background-color: #1313180D;
+}
+
+.foot{
+    flex-direction: none;
+}
+
+.social{
+    text-align: center;
+    padding: 30px ;
+}
+
+.hr2{
+    width: 800px;
+}
 
 /* Mobile Screen */
 
@@ -856,7 +879,18 @@ fieldset{
         margin-left: 70px;
     }
 
+    footer{
+        width: 560px;
+    }
+
+    .hr2{
+        width: 500px;
+    }
+
 }
+
+
+/* desktop minimum */
 
 /* Tablet Screen */
 
