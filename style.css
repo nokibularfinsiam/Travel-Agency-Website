@@ -4,12 +4,15 @@
 
 /* primarily Desktop/Laptop screen */
 
+*{
+    justify-content: center;
+}
 body{
     margin: 0;
     padding: 0;
     margin-left: 100px;
     margin-right: 100px;
-    justify-content: center;
+    max-width: 1520px;
 }
 
 header{
@@ -61,21 +64,79 @@ header{
     color: #FF5400;
 }
 
-.hamburger{
-    margin: 15px;
-    color:#424247;
-    font-family: Mulish;
-    font-size: 18px;
-    font-weight: 400;
-    opacity: 0;
+.page-1{
+    height: 550px;
+    background: linear-gradient(180deg, #131318, #13131800), url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+    border-radius: 20px;
 }
 
-/* @media screen and (min-width:992px) and (max-width: 1520px) {
+.page-1-text-1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 200px;
+}
 
+.page-1-text-2{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+}
 
-} */
+.page-1-3{
+    width: 768px;
+    background-color: rgba(255, 255, 255, 0.30);
+    display: flex;
+    border-radius: 8px;
+    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
 
-/* Mobile Screen  */
+.input-1{
+    width: 174px;
+    height: 48px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    font-family: Mulish;
+    font-size: 16px;
+}
+
+.dropdown{
+    width: 174px;
+    height: 48px;
+    border-radius: 8px;
+    background: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    border: none;
+}
+
+.btn-1{
+    width: 174px;
+    height: 48px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    border: none;
+}
+
+/* Mobile Screen */
 
 @media screen and (min-width:400px) and (max-width: 600px) {
     body{
