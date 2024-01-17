@@ -1025,3 +1025,90 @@ footer{
         margin-left: 420px;
     }
 }
+
+
+
+@media screen and (min-width: 992px) and (max-width:1100px){
+
+    .page-2-text{
+        /* width: 470px;
+        margin-left: 25px; */
+        margin-bottom: 20px;
+    }
+    .page-2{
+        flex-direction: column;
+    }
+    
+    /* .page-2-back{
+        height: 500px;
+        width: 500px;
+    } */
+    .page-5-cont-1, .page-5-cont-2{
+        margin-left: 150px;
+    }
+    .page-5-lastbtn{
+        margin-left: 400px;
+    }
+    .page-6-text{
+        margin-right: 20px;
+    }
+    fieldset{
+        margin-right: 20px;
+    }
+    .page-3-1 img{
+        width: 450px;
+    }
+    .page-3-2-img-1{
+        width: 250px;
+    }
+    
+    .page-3-2-img-2{
+        width: 350px;
+    }
+    
+    .page-3-2-img-3{
+        width: 300px;
+    }
+
+    .page-3-2-img-4{
+        width: 270px;
+    }
+
+    .page-3-2-img-5{
+        width: 500;
+    }
+
+    .sec-11, .sec-12, .sec-13, .sec-21, .sec-22, .sec-23{
+        width: 350px;
+    }
+    .Extra-sec img{
+        width: 300px;
+    }
+    .Ex{
+        margin-left: 420px;
+    }
+
+    .img-1{
+        margin-left: 200px;
+    }
+
+    .img-2{
+        margin-right: 200px;
+    }
+
+    .img-3{
+        margin-left: 300px;
+    }
+
+    .img-4{
+        margin-left: -60px;
+    }
+
+    .img-5{
+        margin-left: 600px;
+    }
+
+    .img-6{
+        margin-left: 200px;
+    }
+}
