@@ -643,21 +643,22 @@ footer{
     width: 800px;
 }
 
-/* Mobile Screen */
+/* Mobile Screen---------------------------------------------------------------- */
 
 @media screen and (max-width: 600px) {
     body{
         margin: 0;
         padding: 0;
-        margin-left: 30px;
+        margin-left: 200px;
         margin-right: 30px;
         margin-top: 20px;
-        justify-content: center;
+        align-items: center;
         width: 600px;
     }
 
     header{
         flex-direction: column;
+        width: 580px;
     }
     
     .nav-a{
@@ -713,6 +714,10 @@ footer{
         
     }
 
+    .page-2-text{
+        width: 560px;
+    }
+
     .page-2 h1 {
         text-align: center;
     }
@@ -725,6 +730,7 @@ footer{
 
     .page-3{
         height: 2800px;
+        width: 560px;
     }
 
     
@@ -812,6 +818,15 @@ footer{
 
     .page-4-cont-2{
         width: 520px;
+        margin-left: 20px;
+    }
+
+    .page-4{
+        width: 560px;
+    }
+
+    .page-5{
+        width: 560px;
     }
     
     .page-5-cont-1{
@@ -894,7 +909,7 @@ footer{
 
 
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
     
     .page-2-text{
         width: 470px;
