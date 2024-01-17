@@ -491,7 +491,7 @@ header{
 
 .page-5-lastbtn{
     margin-top: 20px;
-    margin-left: 650px;
+    margin-left: 550px;
 }
 
 .page-6{
@@ -641,6 +641,59 @@ footer{
 
 .hr2{
     width: 800px;
+}
+
+.sec-11, .sec-12, .sec-13, .sec-21, .sec-22, .sec-23{
+    background: rgba(19, 19, 24, 0.05);
+    height: 250px;
+    width: 450px;
+    margin-right: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+.extra-sec-1{
+    display: flex;
+}
+
+.Extra-sec img{
+    height: 180px;
+    width: 400px;
+    border-radius: 16px;
+    opacity: 0.8;
+}
+
+.Extra-sec h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.Extra-sec h1:hover{
+    color: #FF5400;
+}
+
+.pd{
+    margin-top: 0;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+.pt{
+    margin-bottom: 5px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 800;
+    padding-left: 15px;
+}
+
+.Ex{
+    margin-left: 580px;
 }
 
 /* Mobile Screen---------------------------------------------------------------- */
@@ -899,6 +952,28 @@ footer{
     }
 
     .hr2{
+        width: 500px;
+    }
+
+    .extra-sec-1{
+        flex-direction: column;
+    }
+
+    .Extra-sec{
+        width: 560px;
+    }
+
+    .Ex{
+        margin-left: 130px;
+    }
+
+    .sec-11, .sec-12, .sec-13, .sec-21, .sec-22, .sec-23{
+        height: 300px;
+        width: 560px;
+    }
+
+    .Extra-sec img{
+        height: 235px;
         width: 500px;
     }
 
