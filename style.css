@@ -12,7 +12,6 @@ body{
     padding: 0;
     margin-left: 100px;
     margin-right: 100px;
-    min-width: 992px;
     max-width: 1520px;
 }
 
@@ -702,11 +701,9 @@ footer{
     body{
         margin: 0;
         padding: 0;
-        margin-left: 205px;
+        margin-left: 30px;
         margin-right: 30px;
         margin-top: 20px;
-        align-items: center;
-        width: 600px;
     }
 
     header{
@@ -792,7 +789,7 @@ footer{
     }
 
     .page-3-1 img{
-        width: 590px;
+        width: 560px;
     }
 
     .img-1{
@@ -809,15 +806,15 @@ footer{
         flex-direction: column;
     }
     .page-3-2-img-1{
-        width: 590px;
+        width: 560px;
     }
     
     .page-3-2-img-2{
-        width: 590px;
+        width: 560px;
     }
     
     .page-3-2-img-3{
-        width: 590px;
+        width: 560px;
     }
 
     .img-3{
@@ -840,11 +837,11 @@ footer{
     }
 
     .page-3-2-img-4{
-        width: 590px;
+        width: 560px;
     }
 
     .page-3-2-img-5{
-        width: 590px;
+        width: 560px;
         height: 350px;
     }
 
@@ -978,6 +975,54 @@ footer{
     }
 
 }
+
+
+@media screen and (min-width: 992px) {
+
+    .page-2-text{
+        width: 470px;
+        margin-left: 25px;
+    }
+    
+    .page-2-back{
+        height: 500px;
+        width: 500px;
+    }
+    .page-5-cont-1, .page-5-cont-2{
+        margin-left: 150px;
+    }
+    .page-5-lastbtn{
+        margin-left: 400px;
+    }
+    .page-6-text{
+        margin-right: 20px;
+    }
+    fieldset{
+        margin-right: 20px;
+    }
+    .page-3-1 img{
+        width: 540px;
+    }
+    .page-3-2-img-1{
+        width: 330px;
+    }
+    
+    .page-3-2-img-2{
+        width: 450px;
+    }
+    
+    .page-3-2-img-3{
+        width: 320px;
+    }
+
+    .sec-11, .sec-12, .sec-13, .sec-21, .sec-22, .sec-23{
+        width: 350px;
+    }
+    .Extra-sec img{
+        width: 300px;
+    }
+}
+
 
 /* Tablet Screen */
 
